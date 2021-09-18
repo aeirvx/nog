@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nog"
+version = "0.1.0"
+description = "Package to parse documents and provide metadata."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.26.0"
+"pdfminer.six" = "^20201018"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.27.0"
+mypy = "^0.910"
+yapf = "^0.31.0"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
